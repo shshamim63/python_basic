@@ -14,11 +14,3 @@ N, M = map(int, input().split())
 A = (Create_list(N,M))
 print(A)
 #B = numpy.array(Create_list(N,M))
-'''
-print (A + B)
-print (A - B)
-print (A * B)
-print (A // B)
-print (A % B)
-print (A ** B)
-'''
