@@ -1,0 +1,7 @@
+string=input()
+alphanumeric=any([c.isalnum() for c in string])
+alphabetical=any([c.isalpha() for c in string])
+digits=any([c.isdigit() for c in string])
+lowercase=any([c.islower() for c in string])
+uppercase=any([c.isupper() for c in string])
+print("{}\n{}\n{}\n{}\n{}".format(alphanumeric,alphabetical,digits,lowercase,uppercase))
