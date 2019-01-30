@@ -14,7 +14,7 @@ def minion_game(string):
     elif Stuart_score<Kevin_score:
         print("Kevin "+str(Kevin_score))
     else:
-        print("DRAW")
+        print("Draw")
 if __name__ == '__main__':
     s = input()
     minion_game(s)
